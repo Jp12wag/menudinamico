@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Dinámico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display: inline;
+            margin-right: 15px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        li ul {
+            display: none;
+            position: absolute;
+            background-color: #444;
+            margin-top: 5px;
+            padding: 10px;
+            list-style: none;
+        }
+        li:hover ul {
+            display: block;
+        }
+        li ul li {
+            display: block;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul id="menu"></ul>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>

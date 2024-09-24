@@ -1,0 +1,31 @@
+{
+    "menu": [
+      {
+        "title": "Inicio",
+        "url": "/inicio"
+      },
+      {
+        "title": "Servicios",
+        "url": "/servicios",
+        "subMenu": [
+          {
+            "title": "Desarrollo Web",
+            "url": "/servicios/desarrollo-web"
+          },
+          {
+            "title": "Marketing Digital",
+            "url": "/servicios/marketing-digital"
+          }
+        ]
+      },
+      {
+        "title": "Nosotros",
+        "url": "/nosotros"
+      },
+      {
+        "title": "Contacto",
+        "url": "/contacto"
+      }
+    ]
+  }
+  
